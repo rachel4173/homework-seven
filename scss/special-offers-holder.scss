@@ -1,0 +1,113 @@
+.special-offers-holder{
+    width: 1000px;
+    height: 720px;
+    margin: 0 auto;
+    margin-top: 147.5px;
+    // background-color: pink;
+    padding: 0 25px;
+
+    .special-offers-header{
+        font-family: ProximaNovaExtraCondensed;
+        font-size: 30px;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 10px;
+        letter-spacing: 2px;
+        margin-bottom: -30px;
+
+    }
+
+    .special-city-holder{
+        max-width: 520px;
+        min-height: 287px;
+        // background-color: green;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .special-picture{
+            max-width: 199px;
+            min-height: 287px;
+
+            img{
+                width: 199px;
+                height: 287px;
+                object-fit: cover;
+            }
+        }
+
+        .special-info-holder{
+            width: 300px;
+            height: 287px;
+            // background-color: indigo;
+
+            .info-header{
+                width: 290px;
+                height: 40px;
+                // background-color: antiquewhite;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .info-header-title{
+                    font-family: ProximaNovaExtraCondensed;
+                    font-size: 30px;
+                    text-decoration: underline;
+                    text-decoration-thickness: 2px;
+                    text-underline-offset: 10px;
+                    letter-spacing: 2px;
+                    // background-color: orange;
+                    height: 40px;
+                }
+
+                .info-percent{
+                    font-family: ProximaNovaExtraCondensed;
+                    font-size: 20px;
+                    text-decoration-thickness: 2px;
+                    text-underline-offset: 10px;
+                    letter-spacing: 2px;
+                    color: #FF7D38;
+                    // background-color: orange;
+                    height: 20px;
+                }
+            }
+        }
+
+        .info-paragraph{
+            width: 290px;
+            height: 141px;
+            // background-color: yellow;
+            font-family: GillSans;
+            font-size: 16px;
+            margin-top: 21.5px;
+        }
+
+        .info-button{
+            button{
+                height: 40px;
+                width: 133px;
+                background-color: #79ADDC;
+                border: none;
+                border-radius: 40px;
+                margin-top: 42px;
+            }  
+        }
+    }
+}
+
+@media all and (max-width: 570px) {
+    .special-offers-holder{
+        height: 1260px;
+        .special-city-holder{
+            flex-direction: column;
+            flex: wrap;
+
+            .special-info-holder{
+                margin-top: 20px;
+            }
+        }
+    }
+    
+}
