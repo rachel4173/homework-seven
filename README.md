@@ -7,4 +7,4 @@ Page must be responsive.<br>
 Align the elements as you wish, but they must look good and not touch the sides of the browser.<br>
 Upload your project to Github and add your Web4 link to the README file. Then, submit the Github link to this assignment.<br>
 
-Web 4 link homework 7:
+Web 4 link homework seven: https://in-info-web4.luddy.indianapolis.iu.edu/~raewilk/homework-seven/
