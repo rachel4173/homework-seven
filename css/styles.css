@@ -1356,6 +1356,10 @@ footer .socials {
   border: none;
   border-radius: 40px;
   margin-top: 42px;
+  color: #fff;
+  cursor: pointer;
+  font-family: GillSans;
+  font-size: 15px;
 }
 
 @media all and (max-width: 570px) {
@@ -1484,6 +1488,8 @@ footer .socials {
   max-width: 400px;
   min-height: 161px;
   margin-top: 34px;
+  font-family: GillSansLight;
+  font-size: 18px;
 }
 .contact-holder .contact-content .contact-right {
   width: 579px;
@@ -1527,6 +1533,7 @@ footer .socials {
   border: none;
   margin-left: 15px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 @media all and (max-width: 5000px) {
